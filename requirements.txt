@@ -1,0 +1,7 @@
+# Python 3.12
+# Circuit decompositions (MCX → {H, RZ, CNOT}) are version-sensitive;
+# pin qiskit and qiskit-aer to reproduce the exact gate counts in the paper.
+qiskit==2.1.1
+qiskit-aer==0.17.1
+numpy>=1.24
+matplotlib>=3.7
